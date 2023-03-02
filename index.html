@@ -9,7 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800;900&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./src/css/normalize.css">
     <link rel="stylesheet" href="./src/css/app.css">
@@ -17,32 +17,36 @@
 <body>
 
 <div class="box intro" id="intro">
-    <header class="header">
-        <div class="header__wrapper">
-            <a href="/" class="logo">
-                <img src="./src/images/logo.svg" alt="Logo Car Sharing Company" class="logo__img">
-                <span class="logo__text logo__text--primary">CAR </span>
-                <span class="logo__text">Sharing</span>
-            </a>
-            <nav class="mainMenu">
-                <a href="#intro" class="mainMenu__item mainMenu__item--active">Home</a>
-                <a href="#blog" class="mainMenu__item">Blog</a>
-                <a href="#service" class="mainMenu__item">Service</a>
-                <a href="#contact" class="mainMenu__item">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <section class="box__wrapper hero">
-        <h1 class="hero__hdl">Car Sharing</h1>
-        <p class="hero__lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.</p>
-        <div class="hero__box">
-            <a href="" class="hero__link btn btn-lg btn-primary">SHARE A CAR</a>
-            <a href="" class="hero__link btn btn-lg btn-primary">KEY FEATURES</a>
-        </div>
-    </section>
-    <a href="#blog" class="intro__scroll btn btn-primary btn-icon">Scroll Down</a>
+    <div class="intro__mask">
+        <header class="header">
+            <div class="header__wrapper">
+                <a href="/" class="logo">
+                    <img src="./src/images/logo.svg" alt="Logo Car Sharing Company" class="logo__img">
+                    <span class="logo__text logo__text--primary">CAR</span>
+                    <span class="logo__text">Sharing</span>
+                </a>
+                <nav class="mainMenu">
+                    <a href="#intro" class="mainMenu__item mainMenu__item--active">Home</a>
+                    <a href="#blog" class="mainMenu__item">Blog</a>
+                    <a href="#service" class="mainMenu__item">Service</a>
+                    <a href="#contact" class="mainMenu__item">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <section class="box__wrapper hero">
+            <h1 class="hero__hdl">Car Sharing</h1>
+            <p class="hero__lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut
+                aliquip ex ea commodo consequat.</p>
+            <div class="hero__box">
+                <a href="" class="hero__link btn btn-lg btn-primary">SHARE A CAR</a>
+                <a href="" class="hero__link btn btn-lg btn-secondary">KEY FEATURES</a>
+            </div>
+        </section>
+        <a href="#blog" class="intro__scroll btn btn-primary btn-icon">Scroll Down</a>
+    </div>
 </div>
 
 <div class="box" id="blog"></div>
